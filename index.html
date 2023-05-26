@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My App</title>
+  <meta charset="utf-8">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="my-app.js"></script>
+</head>
+<body>
+  <h1>My App</h1>
+  <p>I am connected to the bot with the token: <code>{botToken}</code></p>
+  <div>
+    <TelegramWebApp
+      botToken="5831405992:AAHZq80BHxL2j-bZRHud-bG3ladDdBTqLak"
+      onMessage={onMessage}
+    />
+  </div>
+</body>
+</html>
